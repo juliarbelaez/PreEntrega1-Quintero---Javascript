@@ -9,13 +9,13 @@ function calculo(montoPrestamo, numeroCuotas, tasa) {
   resultado = resultado.toFixed();
   alert("Tus pagos serían de " + numeroCuotas + " cuotas por " + resultado);
 
-  console.log("cuotas " + numeroCuotas);
+  console.log("cuotas" + numeroCuotas);
   mensajeFinal = "";
   for (let i = 1; i <= numeroCuotas; i++) {
     mensaje = "Cuota n°" + i + ": " + resultado + "\n";
     mensajeFinal = mensajeFinal + mensaje;
   }
-  console.log(mensajeFinal);
+  alert("Tus cuotas son" + "\n" + mensajeFinal);
 }
 
 switch (tasaInteres) {
