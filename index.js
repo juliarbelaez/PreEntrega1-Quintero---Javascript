@@ -28,4 +28,7 @@ switch (tasaInteres) {
   case 9:
     calculo(montoPrestamo, numeroCuotas, 1.9);
     break;
+  default:
+    alert("Dato inválido");
+    break;
 }
